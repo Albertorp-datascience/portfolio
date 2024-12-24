@@ -28,7 +28,7 @@
     }
 
     .project-section, .skills-section {
-      padding: 60px 0;
+      padding: 40px 0; /* Reduced space between About and Projects/Skills section */
       text-align: center;
     }
 
@@ -38,6 +38,7 @@
       display: flex;
       flex-direction: column; /* Ensures content aligns properly */
       justify-content: space-between;
+      margin-bottom: 20px; /* Added margin-bottom for vertical space between cards */
     }
 
     /* Ensures that card images don't stretch */
@@ -181,89 +182,88 @@
       </p>
     </div>
   </section>
-<!-- Projects and Skills Section -->
-<section class="skills-section">
-  <h2 class="display-4">Projects and Skills</h2>
-  <div class="container">
-    <!-- First row of skills/projects -->
-    <div class="skills-row">
-      <!-- Skill/Project Card 1 (Machine Learning) -->
-      <div class="col-md-3 col-sm-12">
-        <div class="card">
-          <img src="portfolio/icons/Profile_pic1.jpg" class="card-img-top" alt="Machine Learning">
-          <div class="card-body">
-            <h5 class="card-title">Machine Learning</h5>
-            <p class="card-text">Machine learning involves training algorithms to make predictions and decisions based on data.</p>
-            <div class="btn-container text-center">
-              <a href="https://dummylink.com/project1" class="btn btn-primary btn-custom">Projects</a>
+  
+  <!-- Projects and Skills Section -->
+  <section class="skills-section">
+    <h2 class="display-4">Projects and Skills</h2>
+    <div class="container">
+      <!-- First row of skills/projects -->
+      <div class="skills-row">
+        <!-- Skill/Project Card 1 (Machine Learning) -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img src="portfolio/icons/Profile_pic1.jpg" class="card-img-top" alt="Machine Learning">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">Machine learning involves training algorithms to make predictions and decisions based on data.</p>
+              <div class="btn-container text-center">
+                <a href="https://dummylink.com/project1" class="btn btn-primary btn-custom">Projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill/Project Card 2 (Data Mining) -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img src="portfolio/icons/Data_mining.png" class="card-img-top" alt="Data Mining">
+            <div class="card-body">
+              <h5 class="card-title">Data Mining</h5>
+              <p class="card-text">Data mining involves extracting patterns and knowledge from large datasets to inform business decisions.</p>
+              <div class="btn-container text-center">
+                <a href="https://dummylink.com/project2" class="btn btn-primary btn-custom">Projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill/Project Card 3 (Deep Learning) -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img src="portfolio/icons/Deep_learning.png" class="card-img-top" alt="Deep Learning">
+            <div class="card-body">
+              <h5 class="card-title">Deep Learning</h5>
+              <p class="card-text">Deep learning models are a subset of machine learning, used for tasks like image recognition and natural language processing.</p>
+              <div class="btn-container text-center">
+                <a href="https://dummylink.com/project3" class="btn btn-primary btn-custom">Projects</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Skill/Project Card 2 (Data Mining) -->
-      <div class="col-md-3 col-sm-12">
-        <div class="card">
-          <img src="C:\Users\alros\Desktop\DataSciencePortfolio\images\Skills\Data_mining.png" class="card-img-top" alt="Data Mining">
-          <div class="card-body">
-            <h5 class="card-title">Data Mining</h5>
-            <p class="card-text">Data mining involves extracting patterns and knowledge from large datasets to inform business decisions.</p>
-            <div class="btn-container text-center">
-              <a href="https://dummylink.com/project2" class="btn btn-primary btn-custom">Projects</a>
+      <!-- Second row of skills/projects (centered) -->
+      <div class="row justify-content-center">
+        <!-- Skill/Project Card 4 (Data Visualization) -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img src="portfolio/icons/DAta_Visualization.png" class="card-img-top" alt="Data Visualization">
+            <div class="card-body">
+              <h5 class="card-title">Data Visualization</h5>
+              <p class="card-text">Data visualization helps to convey information clearly through graphical means, making it easier to understand and analyze data.</p>
+              <div class="btn-container text-center">
+                <a href="https://dummylink.com/project4" class="btn btn-primary btn-custom">Projects</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Skill/Project Card 3 (Deep Learning) -->
-      <div class="col-md-3 col-sm-12">
-        <div class="card">
-          <img src="C:\Users\alros\Desktop\DataSciencePortfolio\images\Skills\Deep_learning.png" class="card-img-top" alt="Deep Learning">
-          <div class="card-body">
-            <h5 class="card-title">Deep Learning</h5>
-            <p class="card-text">Deep learning models are a subset of machine learning, used for tasks like image recognition and natural language processing.</p>
-            <div class="btn-container text-center">
-              <a href="https://dummylink.com/project3" class="btn btn-primary btn-custom">Projects</a>
+        <!-- Skill/Project Card 5 (SQL) -->
+        <div class="col-md-3 col-sm-12">
+          <div class="card">
+            <img src="portfolio/icons/sql.jpg" class="card-img-top" alt="SQL">
+            <div class="card-body">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">SQL is used to communicate with databases and perform tasks like querying, updating, and managing data.</p>
+              <div class="btn-container text-center">
+                <a href="https://dummylink.com/project5" class="btn btn-primary btn-custom">Projects</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Second row of skills/projects (centered) -->
-    <div class="row justify-content-center">
-      <!-- Skill/Project Card 4 (Data Visualization) -->
-      <div class="col-md-3 col-sm-12">
-        <div class="card">
-          <img src="C:\Users\alros\Desktop\DataSciencePortfolio\images\Skills\DAta Visualizationpng.png" class="card-img-top" alt="Data Visualization">
-          <div class="card-body">
-            <h5 class="card-title">Data Visualization</h5>
-            <p class="card-text">Data visualization helps to convey information clearly through graphical means, making it easier to understand and analyze data.</p>
-            <div class="btn-container text-center">
-              <a href="https://dummylink.com/project4" class="btn btn-primary btn-custom">Projects</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Skill/Project Card 5 (SQL) -->
-      <div class="col-md-3 col-sm-12">
-        <div class="card">
-          <img src="C:\Users\alros\Desktop\DataSciencePortfolio\images\Skills\sql.jpg" class="card-img-top" alt="SQL">
-          <div class="card-body">
-            <h5 class="card-title">SQL</h5>
-            <p class="card-text">SQL is used to communicate with databases and perform tasks like querying, updating, and managing data.</p>
-            <div class="btn-container text-center">
-              <a href="https://dummylink.com/project5" class="btn btn-primary btn-custom">Projects</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+  </section>
 
   <!-- Contact Me Section -->
   <section class="contact-section">
@@ -274,7 +274,7 @@
       <p><i class="bi bi-envelope"></i><span>alrp.datascience@gmail.com</span></p>
     </div>
 
-<!-- Social Media Icons -->
+    <!-- Social Media Icons -->
     <div class="social-icons">
       <a href="https://www.linkedin.com/in/alrp-datascience/" class="social-icon" data-platform="LinkedIn" target="_blank">
         <img src="portfolio/icons/linkedin.png" alt="LinkedIn">
@@ -288,6 +288,7 @@
     </div>
   </section>
 
-  <!-- Bootstrap JS and Popper.js Link -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.
+  <!-- Bootstrap JS and Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
