@@ -7,58 +7,6 @@
   <!-- Bootstrap CSS Link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-
-        /* Ensure that all cards are bigger */
-    .card {
-      height: 400px; /* Increased height of the card */
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      margin-bottom: 30px; /* Increase bottom margin */
-    }
-    
-    /* Increase the size of the card image */
-    .card-img-top {
-      width: 100%;
-      height: 250px; /* Increased image height */
-      object-fit: cover;
-    }
-    
-    /* Increased font size and spacing inside the card */
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-align: center;
-      padding: 25px; /* Increased padding */
-      flex-grow: 1;
-    }
-    
-    .card-title {
-      font-size: 1.5rem; /* Larger card title */
-      font-weight: bold;
-      margin-top: 15px;
-    }
-    
-    .card-text {
-      font-size: 1.1rem; /* Larger card text */
-      margin-top: 10px;
-    }
-    
-    .btn-custom {
-      margin-top: 20px; /* More space for buttons */
-    }
-    
-    /* For smaller screens (responsive), adjust card size */
-    @media (max-width: 768px) {
-      .card {
-        height: 350px; /* Smaller height on mobile */
-      }
-      .card-img-top {
-        height: 200px; /* Adjust image size on mobile */
-      }
-    }
-
     /* Custom CSS for About, Projects, Skills, and Contact Sections */
     .about-section {
       padding: 30px 0;
@@ -98,7 +46,30 @@
       text-align: center;
     }
 
-    
+    /* Ensure that all cards are the same size */
+    .card {
+      height: 100%; /* Makes the card take up all available height */
+      display: flex;
+      flex-direction: column; /* Ensures content aligns properly */
+      justify-content: space-between;
+      margin-bottom: 20px; /* Added margin-bottom for vertical space between cards */
+    }
+
+    /* Ensures that card images don't stretch */
+    .card-img-top {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center;
+      padding: 20px;
+      flex-grow: 1; /* Makes sure body grows to take up available space */
+    }
 
     .card-title {
       font-size: 1.25rem;
