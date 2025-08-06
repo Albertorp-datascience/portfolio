@@ -175,6 +175,11 @@ html {
   }
 }
 
+  .text-justify {
+    text-align: justify;
+  }
+
+
 
 </style>
 
@@ -243,87 +248,63 @@ Completed a Master’s in Data Science (focused on Big Data and Machine Learning
 
 
 <!-- Skills Section -->
-<section id="skills" class="skills-section bg-white">
+<section id="skills" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-5">Skills</h2>
+    <h2 class="text-center mb-4">Skills</h2>
     <div class="row">
-      
-      <!-- Skill 1: Programming Skills -->
-      <div class="col-lg-6 mb-4">
-        <h3 class="mb-3">Programming Skills</h3>
-        <p>
-          I use <strong>Python</strong> and <strong>SQL</strong> as my primary programming languages for data science and analytics. My experience includes:
-        </p>
-        <ul>
-          <li>Data manipulation and preprocessing with <strong>Pandas</strong> and <strong>NumPy</strong></li>
-          <li>Writing complex <strong>SQL</strong> queries for data extraction, filtering, joins, and aggregations</li>
-          <li>Cleaning, transforming, and merging datasets using Python scripts and SQL procedures</li>
-          <li>Automating repetitive data workflows and handling structured/unstructured data</li>
-          <li>Creating reusable code through functions, modules, and pipelines</li>
-        </ul>
-        <p>
-          Python and SQL are the foundation of my work, enabling me to access, prepare, and structure data efficiently for analysis and modeling.
-        </p>
+
+      <!-- Programming & Data Engineering -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">Programming & Data Engineering</h4>
+            <p class="card-text text-justify">
+              I work primarily with Python and SQL to access, manipulate, and prepare data efficiently. Using Pandas, NumPy, and SQL queries, I clean, transform, and merge structured and unstructured datasets. I have experience working in Databricks using PySpark, and I’ve also used Azure to a basic extent. Most of my work is done in Jupyter notebooks, where I automate data workflows and create reusable code through functions and modular scripts.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <!-- Skill 2: Data Visualization Skills -->
-      <div class="col-lg-6 mb-4">
-        <h3 class="mb-3">Data Visualization Skills</h3>
-        <p>
-          I create effective and interactive visualizations that simplify complex data and support better decision-making. My experience includes:
-        </p>
-        <ul>
-          <li>Designing dashboards and reports in <strong>Power BI</strong> for real-time business monitoring</li>
-          <li>Building dynamic, interactive dashboards in <strong>Tableau</strong> for analysis and executive presentations</li>
-          <li>Creating custom visualizations in Python using <strong>Matplotlib</strong>, <strong>Seaborn</strong>, and <strong>Plotly</strong></li>
-          <li>Translating raw datasets into visual stories that highlight trends, patterns, and actionable insights</li>
-          <li>Combining technical and visual best practices to deliver clear, intuitive data experiences</li>
-        </ul>
-        <p>
-          I focus on making data accessible and useful to both technical and non-technical audiences through compelling visuals.
-        </p>
+      <!-- Machine Learning & Modeling -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">Machine Learning & Modeling</h4>
+            <p class="card-text text-justify">
+              I design and train machine learning models for real-world problems, mostly in the financial domain. My work focuses on supervised learning — classification, regression, and time series forecasting. I manage the entire pipeline, including data cleaning, feature selection (e.g., SFS, RFE), handling imbalanced datasets (SMOTE, ADASYN), and hyperparameter tuning. I use Scikit-learn and Imbalanced-learn, and I evaluate model performance with robust validation techniques like cross-validation and walk-forward testing.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <!-- Skill 3: Machine Learning Libraries -->
-      <div class="col-lg-6 mb-4">
-        <h3 class="mb-3">Machine Learning Skilss</h3>
-        <p>
-          I manage the entire machine learning pipeline using a wide range of specialized libraries. My experience includes:
-        </p>
-        <ul>
-          <li>Data cleaning, imputation, and outlier handling using <strong>Pandas</strong>, <strong>NumPy</strong>, and <strong>Scikit-learn</strong></li>
-          <li>Feature selection through <strong>SFS</strong>, <strong>RFE</strong>, and manual evaluation guided by data understanding</li>
-          <li>Model training and evaluation with <strong>Scikit-learn</strong>, <strong>Boosting Model</strong>, and more</li>
-          <li>Handling imbalanced data with <strong>Imbalanced-learn</strong> techniques like SMOTE, ADASYN and random undersampling</li>
-          <li>Hyperparameter tuning and robust validation using cross-validation and grid/random search</li>
-          <li>Interpreting models with <strong>SHAP</strong> values, <strong>feature importance</strong>, and visualizations</li>
-          <li>Creating complete machine learning pipelines with <strong>Pipeline</strong> and <strong>ColumnTransformer</strong>, including custom classes</li>
-        </ul>
-        <p>
-          My goal is to build reliable, interpretable, and production-ready machine learning solutions tailored to real-world problems.
-        </p>
+      <!-- Data Visualization & Storytelling -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">Data Visualization & Storytelling</h4>
+            <p class="card-text text-justify">
+              I create visualizations that transform raw data into clear, actionable insights. I have experience building dynamic dashboards using Tableau and designing reports in Power BI. In Python, I use libraries like Matplotlib, Seaborn, and Plotly to develop custom visualizations. My focus is on making data accessible to both technical and non-technical audiences by emphasizing clarity, relevance, and visual impact.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Skill 4: AI & Deep Learning Libraries 
-      <div class="col-lg-6 mb-4">
-        <h3 class="mb-3">AI & Deep Learning Libraries</h3>
-        <p>
-          I specialize in leveraging advanced AI and deep learning frameworks to build, train, and fine-tune powerful models for complex tasks. My experience includes:
-        </p>
-        <ul>
-          <li>Building and training deep neural networks using <strong>TensorFlow</strong> and <strong>Keras</strong> for applications such as image classification, object detection, and sequence modeling</li>
-          <li>Utilizing <strong>Hugging Face Transformers</strong> to fine-tune state-of-the-art pre-trained models for natural language processing tasks like text classification, named entity recognition, and language generation</li>
-          <li>Implementing transfer learning and advanced model optimization techniques to improve performance and efficiency</li>
-          <li>Applying techniques for model interpretability and explainability in deep learning contexts</li>
-        </ul>
-        <p>
-          My focus is on developing cutting-edge AI solutions that are scalable, interpretable, and tailored to solve real-world problems.
-        </p>
-      </div>-->
 
+      <!-- Artificial Intelligence & Deep Learning -->
+      <div class="col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title">Artificial Intelligence & Deep Learning</h4>
+            <p class="card-text text-justify">
+              I have basic experience applying deep learning techniques using TensorFlow and Keras. I've built CNNs and RNNs for structured data and have worked with Hugging Face transformers for sentiment analysis and other NLP tasks. My current focus is on expanding my capabilities in neural network design and working with generative models and modern AI architectures.
+            </p>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
 </section>
+
 
 
 <!-- Contact Me Section -->
